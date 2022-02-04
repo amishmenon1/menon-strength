@@ -85,8 +85,7 @@ export default {
   props: {},
   data() {
     return {
-      publicPath:
-        process.env.NODE_ENV === "production" ? "/menon-strength/" : "/",
+      publicPath: "/menon-strength/",
     };
   },
 };
