@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "742e849848ef88a51b1c",
-    "url": "/menon-strength/css/app.66af685e.css"
+    "revision": "ec1bbe949e827f2e40f1",
+    "url": "/menon-strength/css/app.5de5468f.css"
   },
   {
     "revision": "fb03645a7fd4d3d0c1c1",
@@ -92,12 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/menon-strength/img/menon-strength-profile.0f4ca023.jpeg"
   },
   {
-    "revision": "ff8904a4d17dff3a9b45926db947f2ae",
+    "revision": "0a4a1e104dc4c8ca4233e14f5e0d6614",
     "url": "/menon-strength/index.html"
   },
   {
-    "revision": "742e849848ef88a51b1c",
-    "url": "/menon-strength/js/app.30a1d994.js"
+    "revision": "ec1bbe949e827f2e40f1",
+    "url": "/menon-strength/js/app.96175317.js"
   },
   {
     "revision": "fb03645a7fd4d3d0c1c1",
