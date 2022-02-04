@@ -132,7 +132,6 @@ nav a.dropdown-item:hover {
 .nav-main-title {
   padding-top: 10vh;
   font-family: "Karantina";
-  font-size: 8vw;
 }
 
 /* need styles for disabled links */
