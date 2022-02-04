@@ -130,7 +130,7 @@ nav a.dropdown-item:hover {
 }
 
 .nav-main-title {
-  padding-top: 10vh;
+  padding-top: 10vh !important;
   font-family: "Karantina";
 }
 
