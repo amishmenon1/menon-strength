@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/menon-strength/precache-manifest.4efb87e24db0a78f86cf57a503fdac0b.js"
+  "/menon-strength/precache-manifest.bc7154b188960d6dec243250e38aec96.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "menon-strength"});
