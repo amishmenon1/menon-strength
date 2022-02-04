@@ -115,7 +115,7 @@ export default {
   background-size: cover;
   /* background-size: 154.33px 279.66px; */
 }
-.boat-profile{
+.boat-profile {
   background-image: url("../assets/images/boat-profile.png");
 }
 

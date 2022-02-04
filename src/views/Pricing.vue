@@ -1,8 +1,9 @@
 <template>
   <!-- <div class="pricing"></div> -->
-  <div class="scroll">
+  <div class="row scroll">
     <img
       class="pricing"
+      fluid
       src="../assets/images/pricing/TrainingServicesOffered.png"
     />
   </div>
