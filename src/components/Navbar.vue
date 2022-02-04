@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand nav-main-title" href="/">MENON STRENGTH</a>
+      <a class="navbar-brand nav-main-title" :href="publicPath"
+        >MENON STRENGTH</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -31,7 +33,9 @@
             <router-link class="nav-link" to="/pricing">Pricing</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/start-training">Start Training</router-link>
+            <router-link class="nav-link" to="/start-training"
+              >Start Training</router-link
+            >
           </li>
           <!-- <li class="nav-item dropdown">
             <a
@@ -79,6 +83,12 @@
 export default {
   name: "Navbar",
   props: {},
+  data() {
+    return {
+      publicPath:
+        process.env.NODE_ENV === "production" ? "/menon-strength/" : "/",
+    };
+  },
 };
 </script>
 
@@ -89,21 +99,21 @@ nav {
 
 nav a {
   /* color: #00ff00; */
-  color:gainsboro;
+  color: gainsboro;
   font-weight: normal;
   font-size: larger;
 }
 
 #navbarSupportedContent a {
   /* color: #00ff00; */
-  color:gainsboro;
+  color: gainsboro;
   font-weight: normal;
   font-size: larger;
 }
 
 button.search {
   /* color: #00ff00; */
-  color:gainsboro;
+  color: gainsboro;
   font-weight: normal;
   font-size: larger;
 }
@@ -113,16 +123,16 @@ ul.nav-dropdown {
 }
 
 nav li:hover {
-  background:gray;
+  background: gray;
 }
 
 nav a.dropdown-item:hover {
   background: gray;
 }
 
-.nav-main-title{
+.nav-main-title {
   padding-top: 10vh;
-  font-family: 'Karantina';
+  font-family: "Karantina";
   font-size: 8vw;
 }
 
