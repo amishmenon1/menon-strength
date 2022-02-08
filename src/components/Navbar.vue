@@ -32,6 +32,7 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/pricing">Pricing</router-link>
           </li>
+          <li>&nbsp;&nbsp;</li>
           <li class="nav-item">
             <router-link class="nav-link" to="/start-training"
               >Start Training</router-link
