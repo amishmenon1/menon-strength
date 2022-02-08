@@ -1,7 +1,9 @@
 <template>
-  <div class="row">
-    <div class="grid">
-      <img v-for="image in images" :key="image.url" v-bind:src="image.url" />
+  <div class="row scroll">
+    <div class="col-md-12">
+      <div class="grid">
+        <img v-for="image in images" :key="image.url" v-bind:src="image.url" />
+      </div>
     </div>
   </div>
 </template>

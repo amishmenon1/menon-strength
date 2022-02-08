@@ -7,13 +7,10 @@
 </template>
 <script>
 import Navbar from "./components/Navbar.vue";
-// import VueGallery from "./views/VueGallery.vue";
 export default {
   name: "App",
   components: {
     Navbar,
-    // VueGallery
-    
   },
 };
 </script>
@@ -25,23 +22,21 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   /* color: #8c978c; */
-  color:gainsboro;
+  color: gainsboro;
   /* background: #000000; */
   height: 100vh;
 }
 
-
 #main-background {
   background-image: url("assets/images/backgrounds/background-2.jpeg");
-  position: fixed; 
-  top: 0; 
-  left: 0; 
+  position: fixed;
+  top: 0;
+  left: 0;
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
-  overflow-y:scroll;
+  overflow-y: scroll;
 }
-
 
 #nav {
   padding: 30px;
@@ -54,6 +49,5 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
-  
 }
 </style>
