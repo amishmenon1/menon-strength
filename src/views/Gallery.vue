@@ -1,6 +1,8 @@
 <template>
-  <div class="grid">
-    <img v-for="image in images" :key="image.url" v-bind:src="image.url" />
+  <div class="row">
+    <div class="grid">
+      <img v-for="image in images" :key="image.url" v-bind:src="image.url" />
+    </div>
   </div>
 </template>
 
@@ -42,7 +44,6 @@ export default {
         lightbox.classList.remove("active");
       });
     });
-    
   },
   methods: {
     importAll(r) {
