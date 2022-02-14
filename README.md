@@ -39,6 +39,7 @@ npm run lint
    - `git push origin --delete gh-pages`
 7. Re-run subtree command
    - `git subtree push --prefix dist origin gh-pages`
+   - if command hangs, try `git pull` first
 
 ### Customize configuration
 
